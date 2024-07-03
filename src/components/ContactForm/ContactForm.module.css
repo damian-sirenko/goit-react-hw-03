@@ -1,0 +1,47 @@
+.form {
+  max-width: 350px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  box-sizing: content-box;
+  margin-bottom: 30px;
+}
+.inputNameWrapper {
+  width: 100%;
+}
+.inputLable {
+  margin: 0;
+  font-size: 16px;
+}
+.input {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  padding: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  /* margin-bottom: 16px; */
+  min-width: 330px;
+  height: 30px;
+  border: 1px solid #292929;
+  border-radius: 4px;
+}
+.inputNumberWrapper {
+  margin-top: 8px;
+}
+.addButton {
+  height: 36px;
+  width: 120px;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  border: 1px solid #292929;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+.errorMsg {
+  color: coral;
+  font-style: italic;
+  margin-top: 80px;
+  padding: 0;
+}

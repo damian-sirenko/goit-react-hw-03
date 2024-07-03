@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+.title {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
