@@ -8,12 +8,15 @@ const UserSchema = Yup.object().shape({
     .min(3, "Minimum 3 letters")
     .max(50, "Maximum 50 letters")
     .required("This field is required"),
-  number: Yup.number().required("This field is required"),
+  number: Yup.string()
+    .min(3, "Minimum 3 letters")
+    .max(50, "Maximum 50 letters")
+    .required("This field is required"),
 });
 
 export default function ContactForm({ onAdd }) {
   const handleSubmit = (values, actions) => {
-    onAdd(values);
+    onAdd({ ...values, id: nanoid() });
     actions.resetForm();
   };
 
